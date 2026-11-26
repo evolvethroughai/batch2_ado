@@ -21,5 +21,5 @@ jobs:
 
       - name: Step 3 - Build Docker Image and Push to ACR
         run: |
-          docker build -t reg1234.azurecr.io/my-custom-app:v1 batch2_ado/app/
+          docker build -t reg1234.azurecr.io/my-custom-app:v1 app/
           docker push reg1234.azurecr.io/my-custom-app:v1
